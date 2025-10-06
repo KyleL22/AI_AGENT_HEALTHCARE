@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+pandas==2.2.2
+numpy==1.26.4
+requests==2.32.3
+streamlit==1.37.1
+python-dotenv==1.0.1
+apscheduler==3.10.4
+
+# LangChain / LangGraph / Vector stores
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-openai==0.1.23
+faiss-cpu==1.8.0.post1
+chromadb==0.5.4
+
+# Optional audio processing (not strictly required if using AOAI/Whisper endpoints)
+pydub==0.25.1
